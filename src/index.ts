@@ -5,22 +5,22 @@ const app =  exp()
 app.get("/",(req:any,res:any)=>{
     try {
         return res.status(200).send({
-            users:[
+            fruits:[
                 {
-                    name:"Yogesh",
-                    email:"Yogesh@gmail.com"
+                    name:'Apple',
+                    color:'Red or Green'
                 },
                 {
-                    name:"Ramesh",
-                    email:"Ramesh@gmail.com"
+                    name:'Mango',
+                    color:'Yellow'
                 },
                 {
-                    name:"Hitesh",
-                    email:"Hitesh@gmail.com"
+                    name:'Pineapple',
+                    color:'Yellow or green'
                 },
                 {
-                    name:"Dinesh",
-                    email:"Dinesh@gmail.com"
+                    name:'Grapes',
+                    color:'Black or Green'
                 }
             ]
         })
